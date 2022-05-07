@@ -1,0 +1,48 @@
+.sign_block {
+  width: 20rem;
+  height: 25rem;
+  background-color: aqua;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+}
+
+.bt {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 230px;
+  height: 47px;
+  line-height: 47px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.02);
+  transition: transform 250ms cubic-bezier(.2,.8,.4,1);
+  display: flex;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 3rem;
+  justify-content: center;
+}
+.bt:hover {
+  background-color: #4664ff;
+  color: #fff;
+  transform: scale(1.10);
+}
+
+.img {
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1rem;
+}
+
+.bt:active {
+	transform: scale(0.9);
+}

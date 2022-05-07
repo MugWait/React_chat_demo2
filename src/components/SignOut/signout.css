@@ -1,0 +1,29 @@
+.signout_img{
+    width: 4rem;
+}
+.signout_img:hover{
+    background-color: aqua;
+}
+
+.signout_img:active {
+	transform: scale(0.9);
+}
+.signout_btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    border: none;
+    margin-left: 0rem;
+    
+}
+.nav {
+    min-width: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 25px;
+    padding-top: 30px;
+    
+  }
+ 
